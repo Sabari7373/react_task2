@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+li.list-group-item {
+  padding: 20px;
+  margin: 10px;
+}
+
+.modal-body {
+  background-color: #F09819;
+}
+
+span.data {
+  padding: 20px;
+}
+
+.cart-button:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.cart-button {
+  font-size: 1rem;
+  border: 0.5px solid black;
+  border-radius: 4px;
+
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #f09619ea;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 150px;
+  text-align: center;
+  padding: 5px
+}
+
+.nav-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-row {
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+.icon-button {
+  margin-bottom: 4px;
+  padding-left: 2.5px;
+
+}
+
+.card-space {
+  padding: 20px;
+}
